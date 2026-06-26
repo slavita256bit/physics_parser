@@ -1,0 +1,355 @@
+{
+  "1": {
+    "title": "Электрический заряд и его свойства",
+    "notes_pdf": [1],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_1.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [1],
+    "sav_vol": 2,
+    "sav_pages": [11, 12]
+  },
+  "2": {
+    "title": "Закон сохранения электрического заряда",
+    "notes_pdf": [1],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_1.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [1],
+    "sav_vol": 2,
+    "sav_pages": [12]
+  },
+  "3": {
+    "title": "Точечный заряд",
+    "notes_pdf": [3],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_1.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [2],
+    "sav_vol": 2,
+    "sav_pages": [13]
+  },
+  "4": {
+    "title": "Закон Кулона",
+    "notes_pdf": [1, 2],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_1.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [2],
+    "sav_vol": 2,
+    "sav_pages": [13, 14]
+  },
+  "5": {
+    "title": "Принцип суперпозиции сил",
+    "notes_pdf": [2],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_1.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [2, 3],
+    "sav_vol": 2,
+    "sav_pages": [20]
+  },
+  "6": {
+    "title": "Объемная, поверхностная и линейная плотность заряда",
+    "notes_pdf": [3],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_2.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [4],
+    "sav_vol": 2,
+    "sav_pages": [29]
+  },
+  "7": {
+    "title": "Электростатическое поле",
+    "notes_pdf": [1],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_1.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [3],
+    "sav_vol": 2,
+    "sav_pages": [17, 18]
+  },
+  "8": {
+    "title": "Напряженность электростатического поля",
+    "notes_pdf": [1, 2],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_1.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [3],
+    "sav_vol": 2,
+    "sav_pages": [18, 19]
+  },
+  "9": {
+    "title": "Силовые линии электростатического поля",
+    "notes_pdf": [8],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_1.jpg"
+    ],
+    "seo_pdf": "Элементы векторного анализа.pdf",
+    "seo_pages": [1, 2],
+    "sav_vol": 2,
+    "sav_pages": [23, 24, 25]
+  },
+  "10": {
+    "title": "Напряженность поля точечного заряда и системы зарядов",
+    "notes_pdf": [2, 3],
+    "notes_images": [
+      "img_27.jpg"
+    ],
+    "notes_images_2": [
+      "photo_1.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [3, 4],
+    "sav_vol": 2,
+    "sav_pages": [19, 20]
+  },
+  "11": {
+    "title": "Теорема Гаусса для электростатического поля в интегральной и дифференциальной форме",
+    "notes_pdf": [7, 8, 12],
+    "notes_images": [
+      "img_16.jpg"
+    ],
+    "notes_images_2": [
+      "photo_3.jpg",
+      "photo_4.jpg",
+      "photo_5.jpg",
+      "photo_6.jpg",
+      "photo_7.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [12],
+    "sav_vol": 2,
+    "sav_pages": [26, 27, 28, 29]
+  },
+  "12": {
+    "title": "Теорема о циркуляции вектора напряженности электростатического поля в интегральной и дифференциальной форме",
+    "notes_pdf": [13, 14],
+    "notes_images": [
+      "img_16.jpg",
+      "img_19.jpg",
+      "img_29.jpg"
+    ],
+    "notes_images_2": [
+      "photo_7.jpg",
+      "photo_8.jpg"
+    ],
+    "seo_pdf": "Элементы векторного анализа.pdf",
+    "seo_pages": [11],
+    "sav_vol": 2,
+    "sav_pages": [36, 37, 38]
+  },
+  "13": {
+    "title": "Потенциал электростатического поля",
+    "notes_pdf": [14],
+    "notes_images": [
+      "img_15.jpg",
+      "img_19.jpg",
+      "img_29.jpg"
+    ],
+    "notes_images_2": [
+      "photo_7.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [5, 6],
+    "sav_vol": 2,
+    "sav_pages": [38, 39, 40, 41]
+  },
+  "14": {
+    "title": "Связь потенциала и напряженности электростатического поля",
+    "notes_pdf": [14, 15],
+    "notes_images": [
+      "img_28.jpg",
+      "img_29.jpg"
+    ],
+    "notes_images_2": [
+      "photo_7.jpg",
+      "photo_8.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [7],
+    "sav_vol": 2,
+    "sav_pages": [42, 43, 44, 45]
+  },
+  "15": {
+    "title": "Потенциал поля точечного заряда и системы зарядов",
+    "notes_pdf": [14],
+    "notes_images": [
+      "img_15.jpg",
+      "img_28.jpg"
+    ],
+    "notes_images_2": [
+      "photo_7.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [6],
+    "sav_vol": 2,
+    "sav_pages": [39, 40]
+  },
+  "16": {
+    "title": "Электрический диполь",
+    "notes_pdf": [15],
+    "notes_images": [
+      "img_22.jpg"
+    ],
+    "notes_images_2": [
+      "photo_8.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [15],
+    "sav_vol": 2,
+    "sav_pages": [20, 21, 22, 23]
+  },
+  "17": {
+    "title": "Электрический дипольный момент",
+    "notes_pdf": [15],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_8.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [15],
+    "sav_vol": 2,
+    "sav_pages": [21]
+  },
+  "18": {
+    "title": "Электрическое поле диполя в дальней зоне",
+    "notes_pdf": [16, 17],
+    "notes_images": [
+      "img_23.jpg"
+    ],
+    "notes_images_2": [
+      "photo_8.jpg",
+      "photo_9.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [16],
+    "sav_vol": 2,
+    "sav_pages": [21, 22, 23]
+  },
+  "19": {
+    "title": "Момент сил, действующих на диполь в электростатическом поле",
+    "notes_pdf": [18],
+    "notes_images": [
+      "img_21.jpg",
+      "img_22.jpg"
+    ],
+    "notes_images_2": [
+      "photo_9.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [17, 18],
+    "sav_vol": 2,
+    "sav_pages": [50, 51]
+  },
+  "20": {
+    "title": "Потенциальная энергия диполя в электростатическом поле",
+    "notes_pdf": [19],
+    "notes_images": [
+      "img_21.jpg",
+      "img_22.jpg"
+    ],
+    "notes_images_2": [
+      "photo_9.jpg",
+      "photo_10.jpg"
+    ],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [17, 18],
+    "sav_vol": 2,
+    "sav_pages": [51]
+  },
+  "21": {
+    "title": "Плотность и сила электрического тока",
+    "notes_pdf": [33],
+    "notes_images": [
+      "img_6.jpg",
+      "img_9.jpg"
+    ],
+    "notes_images_2": [
+      "photo_18.jpg",
+      "photo_19.jpg"
+    ],
+    "seo_pdf": "Постоянный электрический ток.pdf",
+    "seo_pages": [1, 2],
+    "sav_vol": 2,
+    "sav_pages": [106, 107, 108]
+  },
+  "22": {
+    "title": "Основы теории Друде для классической электропроводности металлов",
+    "notes_pdf": [32, 33, 34, 35],
+    "notes_images": [
+      "img_5.jpg",
+      "img_9.jpg"
+    ],
+    "notes_images_2": [
+      "photo_18.jpg",
+      "photo_19.jpg",
+      "photo_20.jpg"
+    ],
+    "seo_pdf": "Постоянный электрический ток.pdf",
+    "seo_pages": [2, 3, 4],
+    "sav_vol": 2,
+    "sav_pages": [240, 241, 242, 243]
+  },
+  "23": {
+    "title": "Проводимость твёрдых электролитов",
+    "notes_pdf": [35, 36],
+    "notes_images": [
+      "img_5.jpg"
+    ],
+    "notes_images_2": [
+      "photo_20.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [300, 301]
+  },
+  "24": {
+    "title": "Уравнение непрерывности как выражение закона сохранения заряда в дифференциальной форме",
+    "notes_pdf": [34],
+    "notes_images": [
+      "img_6.jpg"
+    ],
+    "notes_images_2": [
+      "photo_18.jpg",
+      "photo_19.jpg"
+    ],
+    "seo_pdf": "Постоянный электрический ток.pdf",
+    "seo_pages": [4, 5],
+    "sav_vol": 2,
+    "sav_pages": [107]
+  },
+  "25": {
+    "title": "Условие стационарности электрического тока",
+    "notes_pdf": [34],
+    "notes_images": [
+      "img_6.jpg"
+    ],
+    "notes_images_2": [
+      "photo_18.jpg",
+      "photo_19.jpg"
+    ],
+    "seo_pdf": "Постоянный электрический ток.pdf",
+    "seo_pages": [5],
+    "sav_vol": 2,
+    "sav_pages": [108]
+  }
+}

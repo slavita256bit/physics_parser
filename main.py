@@ -76,6 +76,13 @@ def main():
                 images[0].save(os.path.join(ticket_path, "my_notes_images.pdf"), save_all=True,
                                append_images=images[1:])
 
+        img_names_2 = t_data.get("notes_images_2", [])
+        if img_names_2:
+            img_paths = [os.path.join("notes_images_2", img) for img in img_names_2]
+            if img_paths:
+                images = [Image.open(img).convert("RGB") for img in img_paths]
+                images[0].save(os.path.join(ticket_path, "main_notes_images.pdf"), save_all=True, append_images=images[1:])
+
         # 3. Вырезка страниц из конкретного PDF СЭО (seo_pdf + seo_pages)
         seo_filename = t_data.get("seo_pdf")
         seo_pages = t_data.get("seo_pages", [])

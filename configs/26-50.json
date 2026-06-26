@@ -1,0 +1,348 @@
+{
+  "26": {
+    "title": "Сторонние силы, ЭДС",
+    "notes_pdf": [],
+    "notes_images": [],
+    "notes_images_2": [],
+    "seo_pdf": "Постоянный электрический ток.pdf",
+    "seo_pages": [5, 6],
+    "sav_vol": 2,
+    "sav_pages": [108, 109, 110, 111]
+  },
+  "27": {
+    "title": "Закон Ома в локальной (дифференциальной форме)",
+    "notes_pdf": [34],
+    "notes_images": [
+      "img_6.jpg"
+    ],
+    "notes_images_2": [
+      "photo_19.jpg"
+    ],
+    "seo_pdf": "Постоянный электрический ток.pdf",
+    "seo_pages": [7],
+    "sav_vol": 2,
+    "sav_pages": [112]
+  },
+  "28": {
+    "title": "Опыт Эрстеда",
+    "notes_pdf": [22],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_11.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [1],
+    "sav_vol": 2,
+    "sav_pages": [126, 147]
+  },
+  "29": {
+    "title": "Вектор магнитной индукции",
+    "notes_pdf": [22],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_11.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [1, 2],
+    "sav_vol": 2,
+    "sav_pages": [127, 128]
+  },
+  "30": {
+    "title": "Магнитное поле равномерно движущегося заряда",
+    "notes_pdf": [22],
+    "notes_images": [
+      "img_18.jpg"
+    ],
+    "notes_images_2": [
+      "photo_11.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [2, 3],
+    "sav_vol": 2,
+    "sav_pages": [131]
+  },
+  "31": {
+    "title": "Сила Лоренца",
+    "notes_pdf": [22],
+    "notes_images": [
+      "img_14.jpg"
+    ],
+    "notes_images_2": [
+      "photo_11.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [5],
+    "sav_vol": 2,
+    "sav_pages": [158, 159, 160]
+  },
+  "32": {
+    "title": "Эффект Холла",
+    "notes_pdf": [23, 24],
+    "notes_images": [
+      "img_14.jpg",
+      "img_17.jpg"
+    ],
+    "notes_images_2": [
+      "photo_11.jpg",
+      "photo_12.jpg"
+    ],
+    "seo_pdf": "Постоянный электрический ток.pdf",
+    "seo_pages": [10, 11, 12],
+    "sav_vol": 2,
+    "sav_pages": [261, 262, 263, 264]
+  },
+  "33": {
+    "title": "Магнитное поле стационарного тока",
+    "notes_pdf": [31],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_11.jpg",
+      "photo_12.jpg",
+      "photo_13.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [1, 2],
+    "sav_vol": 2,
+    "sav_pages": [126, 127, 128]
+  },
+  "34": {
+    "title": "Закон Био – Савара – Лапласа",
+    "notes_pdf": [25, 26],
+    "notes_images": [
+      "img_7.jpg",
+      "img_12.jpg",
+      "img_13.jpg",
+      "img_14.jpg"
+    ],
+    "notes_images_2": [
+      "photo_12.jpg",
+      "photo_13.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [3, 4],
+    "sav_vol": 2,
+    "sav_pages": [128, 129, 130, 131]
+  },
+  "35": {
+    "title": "Магнитный поток",
+    "notes_pdf": [52],
+    "notes_images": [
+      "img_11.jpg"
+    ],
+    "notes_images_2": [
+      "photo_15.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [5, 6],
+    "sav_vol": 2,
+    "sav_pages": [143, 197]
+  },
+  "36": {
+    "title": "Теорема Гаусса для вектора индукции магнитного поля в интегральной и дифференциальной форме",
+    "notes_pdf": [28, 49],
+    "notes_images": [
+      "img_11.jpg"
+    ],
+    "notes_images_2": [
+      "photo_15.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [5, 6],
+    "sav_vol": 2,
+    "sav_pages": [143]
+  },
+  "37": {
+    "title": "Теорема о циркуляции вектора магнитной индукции в интегральной и дифференциальной форме",
+    "notes_pdf": [29, 30],
+    "notes_images": [
+      "img_10.jpg"
+    ],
+    "notes_images_2": [
+      "photo_16.jpg",
+      "photo_17.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [6, 7, 8],
+    "sav_vol": 2,
+    "sav_pages": [135, 136, 137, 138]
+  },
+  "38": {
+    "title": "Сила Ампера",
+    "notes_pdf": [22],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_11.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [4, 5],
+    "sav_vol": 2,
+    "sav_pages": [156, 157]
+  },
+  "39": {
+    "title": "Контур с током в магнитном поле, момент сил",
+    "notes_pdf": [],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_26.jpg",
+      "photo_27.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [8, 9],
+    "sav_vol": 2,
+    "sav_pages": [161, 162, 163]
+  },
+  "40": {
+    "title": "Сила, действующая на контур в неоднородном магнитном осесимметричном поле",
+    "notes_pdf": [],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_27.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [9],
+    "sav_vol": 2,
+    "sav_pages": [164, 165]
+  },
+  "41": {
+    "title": "Работа сил магнитного поля при перемещении проводника с током",
+    "notes_pdf": [],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_28.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в вакууме.pdf",
+    "seo_pages": [10],
+    "sav_vol": 2,
+    "sav_pages": [165, 166, 167, 168]
+  },
+  "42": {
+    "title": "Полярные и неполярные молекулы",
+    "notes_pdf": [38],
+    "notes_images": [
+      "img_4.jpg"
+    ],
+    "notes_images_2": [
+      "photo_20.jpg",
+      "photo_21.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [1, 2],
+    "sav_vol": 2,
+    "sav_pages": [48, 49, 50]
+  },
+  "43": {
+    "title": "Поляризация диэлектриков",
+    "notes_pdf": [37, 38],
+    "notes_images": [
+      "img_4.jpg"
+    ],
+    "notes_images_2": [
+      "photo_20.jpg",
+      "photo_21.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [2],
+    "sav_vol": 2,
+    "sav_pages": [52, 53]
+  },
+  "44": {
+    "title": "Поляризованность",
+    "notes_pdf": [37, 38, 42],
+    "notes_images": [
+      "img_4.jpg"
+    ],
+    "notes_images_2": [
+      "photo_21.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [2],
+    "sav_vol": 2,
+    "sav_pages": [53]
+  },
+  "45": {
+    "title": "Поле внутри диэлектрика",
+    "notes_pdf": [38],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_21.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [2, 3],
+    "sav_vol": 2,
+    "sav_pages": [60]
+  },
+  "46": {
+    "title": "Связанные и сторонние заряды",
+    "notes_pdf": [37, 40],
+    "notes_images": [
+      "img_26.jpg"
+    ],
+    "notes_images_2": [
+      "photo_20.jpg",
+      "photo_21.jpg",
+      "photo_22.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [1, 3],
+    "sav_vol": 2,
+    "sav_pages": [60, 61]
+  },
+  "47": {
+    "title": "Диэлектрическая восприимчивость",
+    "notes_pdf": [38, 42],
+    "notes_images": [
+      "img_4.jpg"
+    ],
+    "notes_images_2": [
+      "photo_21.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [2],
+    "sav_vol": 2,
+    "sav_pages": [53, 54]
+  },
+  "48": {
+    "title": "Теорема Гаусса для вектора поляризованности в интегральной и дифференциальной форме",
+    "notes_pdf": [39, 40, 41],
+    "notes_images": [
+      "img_2.jpg",
+      "img_3.jpg",
+      "img_26.jpg"
+    ],
+    "notes_images_2": [
+      "photo_22.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [5],
+    "sav_vol": 2,
+    "sav_pages": [58]
+  },
+  "49": {
+    "title": "Вектор электрического смещения",
+    "notes_pdf": [42],
+    "notes_images": [
+      "img_1.jpg"
+    ],
+    "notes_images_2": [
+      "photo_23.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [6],
+    "sav_vol": 2,
+    "sav_pages": [61, 62]
+  },
+  "50": {
+    "title": "Диэлектрическая проницаемость",
+    "notes_pdf": [42],
+    "notes_images": [
+      "img_1.jpg"
+    ],
+    "notes_images_2": [
+      "photo_23.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [6],
+    "sav_vol": 2,
+    "sav_pages": [62, 63]
+  }
+}

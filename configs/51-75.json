@@ -1,0 +1,314 @@
+{
+  "51": {
+    "title": "Теорема Гаусса для вектора электрического смещения в интегральной и дифференциальной форме",
+    "notes_pdf": [42, 44],
+    "notes_images": [
+      "img_2.jpg"
+    ],
+    "notes_images_2": [
+      "photo_23.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [7],
+    "sav_vol": 2,
+    "sav_pages": [62, 63]
+  },
+  "52": {
+    "title": "Условия на границе двух диэлектриков",
+    "notes_pdf": [43, 44],
+    "notes_images": [
+      "img_1.jpg"
+    ],
+    "notes_images_2": [
+      "photo_23.jpg",
+      "photo_24.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [7, 8, 9, 10],
+    "sav_vol": 2,
+    "sav_pages": [69, 70, 71]
+  },
+  "53": {
+    "title": "Сегнетоэлектрики и их доменная структура",
+    "notes_pdf": [46],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_25.jpg",
+      "photo_26.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [10, 11],
+    "sav_vol": 2,
+    "sav_pages": [77, 78]
+  },
+  "54": {
+    "title": "Нелинейный характер поляризации сегнетоэлектрика",
+    "notes_pdf": [46],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_25.jpg",
+      "photo_26.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [11],
+    "sav_vol": 2,
+    "sav_pages": [77, 78]
+  },
+  "55": {
+    "title": "Диэлектрический гистерезис",
+    "notes_pdf": [46],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_25.jpg",
+      "photo_26.jpg"
+    ],
+    "seo_pdf": "Электрическое поле в диэлектриках.pdf",
+    "seo_pages": [11, 12],
+    "sav_vol": 2,
+    "sav_pages": [77, 78]
+  },
+  "56": {
+    "title": "Принцип электрической записи и хранения информации",
+    "notes_pdf": [47],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_26.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [78]
+  },
+  "57": {
+    "title": "Проводники в электростатическом поле",
+    "notes_pdf": [20, 21],
+    "notes_images": [
+      "img_20.jpg"
+    ],
+    "notes_images_2": [
+      "photo_10.jpg"
+    ],
+    "seo_pdf": "Проводники в электрическом поле.pdf",
+    "seo_pages": [1],
+    "sav_vol": 2,
+    "sav_pages": [81, 84]
+  },
+  "58": {
+    "title": "Поле внутри проводника и у его поверхности",
+    "notes_pdf": [20, 21],
+    "notes_images": [
+      "img_20.jpg"
+    ],
+    "notes_images_2": [
+      "photo_10.jpg"
+    ],
+    "seo_pdf": "Проводники в электрическом поле.pdf",
+    "seo_pages": [1, 2],
+    "sav_vol": 2,
+    "sav_pages": [81, 82, 83]
+  },
+  "59": {
+    "title": "Распределение заряда в проводнике",
+    "notes_pdf": [21],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_10.jpg"
+    ],
+    "seo_pdf": "Проводники в электрическом поле.pdf",
+    "seo_pages": [1, 2],
+    "sav_vol": 2,
+    "sav_pages": [81, 82, 84]
+  },
+  "60": {
+    "title": "Электроемкость уединенного проводника",
+    "notes_pdf": [],
+    "notes_images": [],
+    "notes_images_2": [],
+    "seo_pdf": "Проводники в электрическом поле.pdf",
+    "seo_pages": [2, 3],
+    "sav_vol": 2,
+    "sav_pages": [87, 88]
+  },
+  "61": {
+    "title": "Емкость системы проводников",
+    "notes_pdf": [],
+    "notes_images": [],
+    "notes_images_2": [],
+    "seo_pdf": "Проводники в электрическом поле.pdf",
+    "seo_pages": [3],
+    "sav_vol": 2,
+    "sav_pages": [87, 88, 89]
+  },
+  "62": {
+    "title": "Конденсаторы",
+    "notes_pdf": [45],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_25.jpg"
+    ],
+    "seo_pdf": "Проводники в электрическом поле.pdf",
+    "seo_pages": [3],
+    "sav_vol": 2,
+    "sav_pages": [89, 90]
+  },
+  "63": {
+    "title": "Электроемкость плоского, цилиндрического и сферического конденсатора",
+    "notes_pdf": [45],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_25.jpg"
+    ],
+    "seo_pdf": "Проводники в электрическом поле.pdf",
+    "seo_pages": [3],
+    "sav_vol": 2,
+    "sav_pages": [91, 92, 93]
+  },
+  "64": {
+    "title": "Энергия электрического поля",
+    "notes_pdf": [45],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_25.jpg"
+    ],
+    "seo_pdf": "Проводники в электрическом поле.pdf",
+    "seo_pages": [4, 5],
+    "sav_vol": 2,
+    "sav_pages": [101, 102, 103]
+  },
+  "65": {
+    "title": "Магнитные моменты атомов",
+    "notes_pdf": [70],
+    "notes_images": [
+      "img_8.jpg"
+    ],
+    "notes_images_2": [
+      "photo_28.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [5, 6, 7],
+    "sav_vol": 2,
+    "sav_pages": [170, 171, 173, 174]
+  },
+  "66": {
+    "title": "Опыт Эйнштейна – Д'Хааса",
+    "notes_pdf": [],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_28.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [8],
+    "sav_vol": 2,
+    "sav_pages": [171, 172, 173]
+  },
+  "67": {
+    "title": "Намагниченность",
+    "notes_pdf": [69],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_29.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [1],
+    "sav_vol": 2,
+    "sav_pages": [142, 143]
+  },
+  "68": {
+    "title": "Токи намагничивания",
+    "notes_pdf": [71],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_29.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [1, 2, 3],
+    "sav_vol": 2,
+    "sav_pages": [143, 144]
+  },
+  "69": {
+    "title": "Теорема о циркуляции вектора намагниченности в интегральной и дифференциальной форме",
+    "notes_pdf": [71, 72],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_29.jpg",
+      "photo_30.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [2, 3],
+    "sav_vol": 2,
+    "sav_pages": [144, 145]
+  },
+  "70": {
+    "title": "Вектор напряженности магнитного поля и теорема о его циркуляции в интегральной и дифференциальной форме",
+    "notes_pdf": [71, 72],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_30.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [3, 4],
+    "sav_vol": 2,
+    "sav_pages": [145, 146, 147]
+  },
+  "71": {
+    "title": "Условия для магнитного поля на границе двух магнетиков",
+    "notes_pdf": [48, 49],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_31.jpg",
+      "photo_32.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [4, 5],
+    "sav_vol": 2,
+    "sav_pages": [151, 152, 153]
+  },
+  "72": {
+    "title": "Диа- и парамагнетизм",
+    "notes_pdf": [70],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_30.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [7, 8],
+    "sav_vol": 2,
+    "sav_pages": [176, 177, 178, 179, 180, 181, 182]
+  },
+  "73": {
+    "title": "Ферромагнетизм",
+    "notes_pdf": [69, 70],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_31.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [9],
+    "sav_vol": 2,
+    "sav_pages": [183, 184]
+  },
+  "74": {
+    "title": "Магнитная структура ферромагнетика",
+    "notes_pdf": [69],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_31.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [11, 12],
+    "sav_vol": 2,
+    "sav_pages": [186, 187, 188]
+  },
+  "75": {
+    "title": "Кривая намагничивания ферромагнетика",
+    "notes_pdf": [69],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_31.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [9, 10],
+    "sav_vol": 2,
+    "sav_pages": [184, 185]
+  }
+}

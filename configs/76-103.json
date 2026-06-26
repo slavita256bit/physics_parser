@@ -1,0 +1,351 @@
+{
+  "76": {
+    "title": "Магнитный гистерезис",
+    "notes_pdf": [69],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_31.jpg"
+    ],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [10],
+    "sav_vol": 2,
+    "sav_pages": [184, 185, 186]
+  },
+  "77": {
+    "title": "Принцип магнитной записи и хранения информации",
+    "notes_pdf": [],
+    "notes_images": [],
+    "notes_images_2": [],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [13, 14],
+    "sav_vol": 2,
+    "sav_pages": []
+  },
+  "78": {
+    "title": "Опыты Фарадея",
+    "notes_pdf": [50],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_32.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [190, 191]
+  },
+  "79": {
+    "title": "Явление электромагнитной индукции. Правило Ленца",
+    "notes_pdf": [50],
+    "notes_images": [
+      "img_24.jpg"
+    ],
+    "notes_images_2": [
+      "photo_32.jpg",
+      "photo_33.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [190, 191, 192]
+  },
+  "80": {
+    "title": "Закон электромагнитной индукции",
+    "notes_pdf": [50],
+    "notes_images": [
+      "img_24.jpg",
+      "img_25.jpg"
+    ],
+    "notes_images_2": [
+      "photo_32.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [192, 193]
+  },
+  "81": {
+    "title": "Причина возникновения индукционного тока в замкнутом проводнике в стационарном магнитном поле",
+    "notes_pdf": [51],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_33.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [192, 193, 194]
+  },
+  "82": {
+    "title": "Собственный магнитный поток, индуктивность. Самоиндукция, ЭДС самоиндукции",
+    "notes_pdf": [52],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_33.jpg",
+      "photo_34.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [201, 202, 203]
+  },
+  "83": {
+    "title": "Индуктивность длинного соленоида",
+    "notes_pdf": [53],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_33.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [203]
+  },
+  "84": {
+    "title": "Взаимная индукция",
+    "notes_pdf": [54],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_33.jpg",
+      "photo_34.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [210, 211, 212]
+  },
+  "85": {
+    "title": "Ток при размыкании и замыкании цепи",
+    "notes_pdf": [56, 57],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_34.jpg",
+      "photo_35.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [204, 205, 206, 207]
+  },
+  "86": {
+    "title": "Энергия магнитного поля",
+    "notes_pdf": [55],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_34.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [207, 208, 209, 210]
+  },
+  "87": {
+    "title": "Причина возникновения индукционного тока в неподвижном замкнутом проводнике в изменяющемся со временем магнитном поле",
+    "notes_pdf": [51],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_33.jpg",
+      "photo_35.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [372, 373, 374]
+  },
+  "88": {
+    "title": "Вихревое электрическое поле",
+    "notes_pdf": [51],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_33.jpg",
+      "photo_35.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [372, 373, 374]
+  },
+  "89": {
+    "title": "Обобщение закона электромагнитной индукции",
+    "notes_pdf": [51],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_35.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [372, 373, 374]
+  },
+  "90": {
+    "title": "Ток смещения",
+    "notes_pdf": [58],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_35.jpg",
+      "photo_36.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [377, 378, 379, 380]
+  },
+  "91": {
+    "title": "Уравнение полного тока в интегральной и дифференциальной форме",
+    "notes_pdf": [58],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_35.jpg",
+      "photo_36.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [393, 394, 395]
+  },
+  "92": {
+    "title": "Электромагнитные колебания",
+    "notes_pdf": [59],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_36.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [357]
+  },
+  "93": {
+    "title": "Колебательный контур",
+    "notes_pdf": [60, 61],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_37.jpg",
+      "photo_38.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [357, 358]
+  },
+  "94": {
+    "title": "Квазистационарный колебательный контур, квазистационарный ток",
+    "notes_pdf": [59],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_36.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [338]
+  },
+  "95": {
+    "title": "Свободные колебания заряда в идеальном колебательном контуре",
+    "notes_pdf": [60, 61],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_37.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [357, 358, 359]
+  },
+  "96": {
+    "title": "Формула Томсона",
+    "notes_pdf": [61],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_37.jpg"
+    ],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [360]
+  },
+  "97": {
+    "title": "Свободные затухающие колебания заряда в колебательном контуре",
+    "notes_pdf": [62],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_38.jpg"
+    ],
+    "seo_pdf": "Механические колебания.pdf",
+    "seo_pages": [13, 14, 15],
+    "sav_vol": 2,
+    "sav_pages": [360, 361, 362]
+  },
+  "98": {
+    "title": "Логарифмический декремент затухания",
+    "notes_pdf": [63],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_38.jpg"
+    ],
+    "seo_pdf": "Механические колебания.pdf",
+    "seo_pages": [15],
+    "sav_vol": 2,
+    "sav_pages": [362]
+  },
+  "99": {
+    "title": "Время релаксации",
+    "notes_pdf": [63],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_38.jpg"
+    ],
+    "seo_pdf": "Механические колебания.pdf",
+    "seo_pages": [15],
+    "sav_vol": 2,
+    "sav_pages": [361, 362]
+  },
+  "100": {
+    "title": "Добротность колебательного контура",
+    "notes_pdf": [63, 64],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_39.jpg"
+    ],
+    "seo_pdf": "Механические колебания.pdf",
+    "seo_pages": [15, 16],
+    "sav_vol": 2,
+    "sav_pages": [363, 364]
+  },
+  "101": {
+    "title": "Вынужденные электромагнитные колебания",
+    "notes_pdf": [64, 65],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_39.jpg"
+    ],
+    "seo_pdf": "Механические колебания.pdf",
+    "seo_pages": [16, 17],
+    "sav_vol": 2,
+    "sav_pages": [364, 365, 366]
+  },
+  "102": {
+    "title": "Резонанс напряжения и силы тока",
+    "notes_pdf": [66, 67],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_39.jpg",
+      "photo_40.jpg"
+    ],
+    "seo_pdf": "Механические колебания.pdf",
+    "seo_pages": [18, 19],
+    "sav_vol": 2,
+    "sav_pages": [353, 354, 366, 367]
+  },
+  "103": {
+    "title": "Амплитудно-резонансные кривые напряжения и силы тока",
+    "notes_pdf": [68],
+    "notes_images": [],
+    "notes_images_2": [
+      "photo_40.jpg"
+    ],
+    "seo_pdf": "Механические колебания.pdf",
+    "seo_pages": [18, 19],
+    "sav_vol": 2,
+    "sav_pages": [366, 367]
+  }
+}
