@@ -1,0 +1,92 @@
+{
+  "71": {
+    "title": "Условия для магнитного поля на границе двух магнетиков",
+    "notes_pdf": [48, 49],
+    "notes_images": [],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [4, 5],
+    "sav_vol": 2,
+    "sav_pages": [151, 152, 153]
+  },
+  "72": {
+    "title": "Диа- и парамагнетизм",
+    "notes_pdf": [70],
+    "notes_images": [],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [7, 8],
+    "sav_vol": 2,
+    "sav_pages": [176, 177, 178, 179, 180, 181, 182]
+  },
+  "73": {
+    "title": "Ферромагнетизм",
+    "notes_pdf": [69, 70],
+    "notes_images": [],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [9],
+    "sav_vol": 2,
+    "sav_pages": [183, 184]
+  },
+  "74": {
+    "title": "Магнитная структура ферромагнетика",
+    "notes_pdf": [69],
+    "notes_images": [],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [11, 12],
+    "sav_vol": 2,
+    "sav_pages": [186, 187, 188]
+  },
+  "75": {
+    "title": "Кривая намагничивания ферромагнетика",
+    "notes_pdf": [69],
+    "notes_images": [],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [9, 10],
+    "sav_vol": 2,
+    "sav_pages": [184, 185]
+  },
+  "76": {
+    "title": "Магнитный гистерезис",
+    "notes_pdf": [69],
+    "notes_images": [],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [10],
+    "sav_vol": 2,
+    "sav_pages": [184, 185, 186]
+  },
+  "77": {
+    "title": "Принцип магнитной записи и хранения информации",
+    "notes_pdf": [],
+    "notes_images": [],
+    "seo_pdf": "Магнитное поле в веществе.pdf",
+    "seo_pages": [13, 14],
+    "sav_vol": 2,
+    "sav_pages": []
+  },
+  "78": {
+    "title": "Опыты Фарадея",
+    "notes_pdf": [50],
+    "notes_images": [],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [190, 191]
+  },
+  "79": {
+    "title": "Явление электромагнитной индукции. Правило Ленца",
+    "notes_pdf": [50],
+    "notes_images": [],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [190, 191, 192]
+  },
+  "80": {
+    "title": "Закон электромагнитной индукции",
+    "notes_pdf": [50],
+    "notes_images": [],
+    "seo_pdf": "",
+    "seo_pages": [],
+    "sav_vol": 2,
+    "sav_pages": [192, 193]
+  }
+}

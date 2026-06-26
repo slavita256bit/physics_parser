@@ -1,0 +1,92 @@
+{
+  "1": {
+    "title": "Электрический заряд и его свойства",
+    "notes_pdf": [1],
+    "notes_images": [],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [1],
+    "sav_vol": 2,
+    "sav_pages": [11, 12]
+  },
+  "2": {
+    "title": "Закон сохранения электрического заряда",
+    "notes_pdf": [1],
+    "notes_images": [],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [1],
+    "sav_vol": 2,
+    "sav_pages": [12]
+  },
+  "3": {
+    "title": "Точечный заряд",
+    "notes_pdf": [3],
+    "notes_images": [],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [2],
+    "sav_vol": 2,
+    "sav_pages": [13]
+  },
+  "4": {
+    "title": "Закон Кулона",
+    "notes_pdf": [1, 2],
+    "notes_images": [],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [2],
+    "sav_vol": 2,
+    "sav_pages": [13, 14]
+  },
+  "5": {
+    "title": "Принцип суперпозиции сил",
+    "notes_pdf": [2],
+    "notes_images": [],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [2, 3],
+    "sav_vol": 2,
+    "sav_pages": [20]
+  },
+  "6": {
+    "title": "Объемная, поверхностная и линейная плотность заряда",
+    "notes_pdf": [3],
+    "notes_images": [],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [4],
+    "sav_vol": 2,
+    "sav_pages": [29]
+  },
+  "7": {
+    "title": "Электростатическое поле",
+    "notes_pdf": [1],
+    "notes_images": [],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [3],
+    "sav_vol": 2,
+    "sav_pages": [17, 18]
+  },
+  "8": {
+    "title": "Напряженность электростатического поля",
+    "notes_pdf": [1, 2],
+    "notes_images": [],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [3],
+    "sav_vol": 2,
+    "sav_pages": [18, 19]
+  },
+  "9": {
+    "title": "Силовые линии электростатического поля",
+    "notes_pdf": [8],
+    "notes_images": [],
+    "seo_pdf": "Элементы векторного анализа.pdf",
+    "seo_pages": [1, 2],
+    "sav_vol": 2,
+    "sav_pages": [23, 24, 25]
+  },
+  "10": {
+    "title": "Напряженность поля точечного заряда и системы зарядов",
+    "notes_pdf": [2, 3],
+    "notes_images": [],
+    "seo_pdf": "Электростатика в вакууме.pdf",
+    "seo_pages": [3, 4],
+    "sav_vol": 2,
+    "sav_pages": [19, 20]
+  }
+}
