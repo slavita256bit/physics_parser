@@ -70,8 +70,7 @@ def main():
         # 2. Обработка фотографий конспектов (notes_images) -> конвертация в PDF
         img_names = t_data.get("notes_images", [])
         if img_names:
-            img_paths = [os.path.join("notes_images", img) for img in img_names if
-                         os.path.exists(os.path.join("notes_images", img))]
+            img_paths = [os.path.join("notes_images", img) for img in img_names]
             if img_paths:
                 images = [Image.open(img).convert("RGB") for img in img_paths]
                 images[0].save(os.path.join(ticket_path, "my_notes_images.pdf"), save_all=True,
