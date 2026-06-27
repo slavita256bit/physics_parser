@@ -5,7 +5,7 @@
 //   show align: set block(above: 0.2em, below: 0.2em)
 
   // Глобальные настройки компактности
-  set text(size: 5.5pt, lang: "ru", hyphenate: true) // Включаем переносы для плотности
+  set text(size: 6pt, lang: "ru", hyphenate: true) // Включаем переносы для плотности
   set par(leading: 0.5em, spacing: 0.65em, justify: false)
   set math.equation(block: false) // Пытаемся делать формулы более компактными
   set image(width: 80%) // Картинки по умолчанию не огромные
@@ -55,7 +55,7 @@
         if c.title != "" [
           #align(center)[_Пояснения:_ *#c.title*]
           #v(2pt)
-          #set text(size: 6.5pt) // Для пояснений можно еще чуть мельче
+//           #set text(size: 5.5pt) // Для пояснений можно еще чуть мельче
           #c.back
         ]
       ))
