@@ -16,14 +16,17 @@
     $ F = k (|q_1| |q_2|) / r^2 quad (k = 1 / (4 pi epsilon_0)) $
 
     // Схема есть в конспекте, но нет готовой картинки из СЭО -> рисуем в CeTZ
-    #align(center)[#cetz.canvas({
-      import cetz.draw: *
-      scale(0.5)
-      circle((0, 0), radius: 0.1, fill: black); content((0, -0.6), $q_1$)
-      circle((4, 0), radius: 0.1, fill: black); content((4, -0.6), $q_2$)
-      line((0, 0), (4, 0), stroke: (dash: "dashed"))
-      line((4, 0), (6.5, 0), mark: (end: ">")); content((6.5, -0.6), $arrow(F)_(12)$)
-    })]
+    #align(center)[
+      #scale(x: 50%, y: 50%)[
+        #cetz.canvas({
+          import cetz.draw: *
+          circle((0, 0), radius: 0.2, fill: black); content((0, -0.6), $q_1$)
+          circle((4, 0), radius: 0.2, fill: black); content((4, -0.6), $q_2$)
+          line((0, 0), (4, 0), stroke: (dash: "dashed"))
+          line((4, 0), (6.5, 0), mark: (end: ">")); content((6.5, -0.6), $arrow(F)_(12)$)
+        })
+      ]
+    ]
   ],
   back: [
     *Расшифровка формул:*

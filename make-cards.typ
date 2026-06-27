@@ -1,6 +1,9 @@
-// flashcards.typ
+#import "@preview/cetz:0.5.2"
+
 #let make-cards(cards) = {
   set page(paper: "a4", margin: 8mm)
+
+  show scale: set text(size: 14pt)
 
   // Глобальные настройки компактности
   set text(size: 5.5pt, lang: "ru", hyphenate: true) // Включаем переносы для плотности
