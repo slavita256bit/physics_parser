@@ -15,6 +15,7 @@
     *3. Закон Кулона:*
     $ F = k (|q_1| |q_2|) / r^2 quad (k = 1 / (4 pi epsilon_0)) $
 
+    // Схема есть в конспекте, но нет готовой картинки из СЭО -> рисуем в CeTZ
     #align(center)[#cetz.canvas({
       import cetz.draw: *
       scale(0.5)

@@ -3,6 +3,7 @@ name = "physics-parser"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "google-genai>=2.10.0",
     "numpy>=2.5.0",
     "opencv-python>=4.13.0.92",
     "pillow>=12.2.0",

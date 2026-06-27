@@ -22,7 +22,7 @@
       rows: (1fr, 1fr, 1fr),
       stroke: 0.5pt + luma(180),
       ..chunk.map(c => block(
-        width: 100%, height: 100%, inset: 4pt, // Уменьшили inset
+        width: 100%, height: 100%, inset: 4pt,
         [
           #align(center)[*#c.title*]
           #v(2pt)
@@ -33,19 +33,20 @@
 
     // === ОБРАТНАЯ СТОРОНА ===
     let padded = chunk
-    while padded.len() < 12 {
+    while padded.len() < 9 {
       padded.push((title: "", front: [], back: []))
     }
 
     let back-items = ()
-    for row in range(4) {
+    for row in range(3) {
+      // ИСПРАВЛЕНО: добавили + 3, чтобы забирать по 3 элемента на строку
       let r = padded.slice(row * 3, row * 3 + 3)
       back-items += r.rev()
     }
 
     grid(
       columns: (1fr, 1fr, 1fr),
-      rows: (1fr, 1fr, 1fr, 1fr),
+      rows: (1fr, 1fr, 1fr),
       stroke: 0.5pt + luma(180),
       ..back-items.map(c => block(
         width: 100%, height: 100%, inset: 4pt,
