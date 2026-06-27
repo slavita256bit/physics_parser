@@ -3,6 +3,7 @@ import glob
 import re
 import subprocess
 import tempfile
+import time  # <--- Добавлен импорт для задержки
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
@@ -132,8 +133,8 @@ def process_ticket(ticket_dir, sys_prompt):
             thinking_config=types.ThinkingConfig(thinking_budget=2048)
         )
 
-        # Рекомендуется использовать gemini-2.5-flash для корректной поддержки thinking_config
-        model_name = 'models/gemini-2.5-flash'
+        # Рекомендуется использовать gemini-3.5-flash для корректной поддержки thinking_config
+        model_name = 'models/gemini-3.5-flash'
 
         # Создаем сессию чата для возможности ведения диалога и исправления ошибок
         chat = client.chats.create(
@@ -164,6 +165,9 @@ def process_ticket(ticket_dir, sys_prompt):
         else:
             # Если компиляция не удалась, отправляем ошибку в этот же чат для исправления (один раз)
             print(f"❌ Ошибка компиляции Typst. Запрос исправления у модели...\nДетали ошибки:\n{err_msg}")
+
+            # Небольшая пауза перед повторным запросом исправления, чтобы снизить нагрузку
+            time.sleep(10)
 
             correction_prompt = (
                 f"При компиляции сгенерированного кода Typst произошла ошибка:\n\n"
@@ -237,7 +241,15 @@ def main():
 
     print(f"\nК обработке выбрано билетов: {len(dirs_to_process)}")
 
-    for t_dir in dirs_to_process:
+    # Задержка между билетами (в секундах) для обхода лимитов бесплатного тарифа (например, 12 секунд)
+    delay_between_tickets = 60
+
+    for i, t_dir in enumerate(dirs_to_process):
+        # Если это не первый обрабатываемый билет, делаем паузу перед запросом
+        if i > 0:
+            print(f"💤 Ожидание {delay_between_tickets} сек. для предотвращения лимитов API...")
+            time.sleep(delay_between_tickets)
+
         process_ticket(t_dir, sys_prompt)
 
     update_main_typ()
