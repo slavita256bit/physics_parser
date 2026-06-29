@@ -3,6 +3,7 @@ import json
 import glob
 import re
 from pypdf import PdfReader, PdfWriter
+from PIL import Image  # <-- ДОБАВЛЕН ИМПОРТ PIL
 
 
 def merge_json_configs(config_dir):
@@ -71,15 +72,23 @@ def main():
 
         print(f"\n📂 Сборка батча {batch_folder_name} (билеты с {batch_start_num} по {batch_end_num})...")
 
-        # --- ШАГ 1: Поиск уникальных страниц для батча ---
+        # --- ШАГ 1: Поиск уникальных страниц и картинок для батча ---
         notes_pages_set = set()
-        seo_pages_set = set()  # Хранит кортежи (seo_filename, page_num)
-        saveliev_pages_set = set()  # Хранит кортежи (volume, page_num)
+        seo_pages_set = set()
+        saveliev_pages_set = set()
+        images_2_list = []  # Список для сохранения порядка картинок
+        images_2_set = set()
 
         for _, t_data in chunk:
-            # Рукописные заметки
+            # Рукописные заметки (PDF)
             for p in t_data.get("notes_pdf", []):
                 notes_pages_set.add(p)
+
+            # Картинки из notes_images_2
+            for img in t_data.get("notes_images_2", []):
+                if img not in images_2_set:
+                    images_2_set.add(img)
+                    images_2_list.append(img)
 
             # СЭО
             seo_filename = t_data.get("seo_pdf")
@@ -99,7 +108,7 @@ def main():
 
         # --- ШАГ 2: Генерация объединенных PDF-файлов ---
 
-        # 2.1 Конспект
+        # 2.1 Конспект (PDF)
         if unique_notes_pages and notes_reader:
             writer = PdfWriter()
             for p in unique_notes_pages:
@@ -134,7 +143,30 @@ def main():
             with open(os.path.join(batch_path, "saveliev_combined.pdf"), "wb") as f:
                 writer.write(f)
 
-        # --- ШАГ 3: Создание маппингов для манифеста (1-based индексы в новых файлах) ---
+        # 2.4 Конспект (Фотографии notes_images_2)
+        img2_map = {}
+        if images_2_list:
+            img_objects = []
+            valid_img_names = []
+            for img_name in images_2_list:
+                img_path = os.path.join("notes_images_2", img_name)
+                if os.path.exists(img_path):
+                    try:
+                        img = Image.open(img_path).convert("RGB")
+                        img_objects.append(img)
+                        valid_img_names.append(img_name)
+                    except Exception as e:
+                        print(f"Ошибка при обработке картинки {img_path}: {e}")
+                else:
+                    print(f"⚠️ Внимание: Фотография не найдена {img_path}")
+
+            if img_objects:
+                out_pdf_path = os.path.join(batch_path, "notes_images_2_combined.pdf")
+                img_objects[0].save(out_pdf_path, save_all=True, append_images=img_objects[1:])
+                # Маппинг: имя файла -> номер страницы (1-based) в новом PDF
+                img2_map = {name: idx + 1 for idx, name in enumerate(valid_img_names)}
+
+        # --- ШАГ 3: Создание маппингов для манифеста (PDF файлы) ---
         notes_map = {p: idx + 1 for idx, p in enumerate(unique_notes_pages)}
         seo_map = {entry: idx + 1 for idx, entry in enumerate(unique_seo_pages)}
         sav_map = {entry: idx + 1 for idx, entry in enumerate(unique_sav_pages)}
@@ -150,12 +182,21 @@ def main():
             title = t_data.get("title", f"Билет_{t_num}")
             manifest_lines.append(f"Билет {t_num:02d}: {title}")
 
-            # Картографирование конспекта
+            # Картографирование конспекта (PDF)
             t_notes = t_data.get("notes_pdf", [])
             if t_notes and notes_reader:
                 mapped_pages = [str(notes_map[p]) for p in t_notes if p in notes_map]
-                manifest_lines.append(f"  - Конспект (notes_combined.pdf): страницы {', '.join(mapped_pages)}")
-            else:
+                manifest_lines.append(f"  - Конспект PDF (notes_combined.pdf): страницы {', '.join(mapped_pages)}")
+
+            # Картографирование конспекта (Фото)
+            t_imgs_2 = t_data.get("notes_images_2", [])
+            if t_imgs_2 and img2_map:
+                mapped_pages = [str(img2_map[img]) for img in t_imgs_2 if img in img2_map]
+                if mapped_pages:
+                    manifest_lines.append(
+                        f"  - Конспект Фото (notes_images_2_combined.pdf): страницы {', '.join(mapped_pages)}")
+
+            if not t_notes and not t_imgs_2:
                 manifest_lines.append("  - Конспект: не требуется")
 
             # Картографирование СЭО
